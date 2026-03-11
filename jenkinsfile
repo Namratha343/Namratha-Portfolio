@@ -20,7 +20,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-cred',
-                    url: 'https://github.com/Namrathaaaaaa/Namratha-Portfolio.git'
+                    url: 'https://github.com/Namratha343/Namratha-Portfolio.git'
             }
         }
 
