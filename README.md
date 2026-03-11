@@ -11,7 +11,7 @@ A beautiful, modern, and responsive personal portfolio website built with React,
 - **Beautiful Theme**: Pink-purple-black gradient color scheme
 - **Fast Performance**: Optimized with Vite for lightning-fast development and builds
 
-## Pages
+## Page
 
 ### 1. Home Page
 - **Hero Section**: Introduction with animated background and profile photo
