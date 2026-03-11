@@ -3,26 +3,39 @@ import { HiOfficeBuilding, HiCalendar, HiCheckCircle } from 'react-icons/hi'
 
 const experiences = [
   {
-    role: 'DevOps Lead',
-    startDate: 'Sept 2025',
+    role: 'SDE-DevOps Intern',
+    startDate: 'Jan 2026',
     endDate: 'present',
-    organization: 'DSCE Bangalore',
+    organization: 'FinSynth AI',
+    location: 'Bengaluru',
     highlights: [
-      'Led DevOps for AIML Nexus chatbot platform deployed on Kubernetes + ArgoCD with zero-downtime deployments.',
-      'Architected full CI/CD pipeline with Jenkins + SonarQube + GitHub integration.',
-      'Implemented end-to-end observability with Prometheus, Grafana, OpenTelemetry ensuring 99.9% uptime.',
+      'Improved AI service reliability and latency by building LLM-driven backend services in Python with multi-model routing and provider fallback mechanisms.',
+      'Designed and deployed containerized microservices using Docker and Kubernetes, enabling scalable AI inference workloads.',
+      'Implemented GitOps CI/CD pipelines using ArgoCD and Terraform for automated infrastructure provisioning and application deployment.',
+      'Optimized Kubernetes deployments with autoscaling and Prometheus/Grafana monitoring to improve reliability under traffic spikes.',
+    ],
+  },
+  {
+    role: 'DevOps Engineer',
+    startDate: 'Sept 2025',
+    endDate: 'Jan 2026',
+    organization: 'Veerion',
+    location: 'Remote',
+    highlights: [
+      'Supported production AWS cloud migration, improving system reliability, scalability, and fault tolerance for live workloads.',
+      'Built and optimized serverless workflows using AWS Lambda, API Gateway, SQS, and DynamoDB to reduce latency and handle traffic spikes efficiently.',
+      'Automated infrastructure provisioning with Terraform and developed Python/Bash scripts to streamline deployments and reduce operational overhead.',
     ],
   },
   {
     role: 'SDE Intern',
     startDate: 'Jan 2025',
     endDate: 'Oct 2025',
-    organization: 'ISRO Bangalore',
+    organization: 'ISRO',
+    location: 'Bangalore',
     highlights: [
-      'Led team of 10 improving Bhuvan national geospatial platform.',
-      'Built multilingual map translation system using PostGIS, vector tiles, PostgreSQL.',
-      'Containerized services with Docker, deployed APIs with Redis caching.',
-      'Optimized system performance for scalable multilingual map services.',
+      'Led development of a multilingual map translation system (English → Kannada) for ISRO\'s Bhuvan geospatial platform using PostGIS and PostgreSQL.',
+      'Containerized services with Docker and built translation APIs with Redis caching, improving scalability and response time for geospatial data services.',
     ],
   },
   {

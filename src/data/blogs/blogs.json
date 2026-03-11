@@ -11,22 +11,22 @@
   },
   {
     "id": 2,
-    "title": "DevSecOps: Integrating Security into CI/CD Pipelines",
-    "summary": "Exploring best practices for implementing security scanning with SonarQube and Trivy in Jenkins pipelines. Shift-left security testing for containerized applications.",
-    "date": "2025-11-10",
+    "title": "Week 1 — When LLM Failures Weren't About Load, But Timing (ZooKeeper + Distributed Locking)",
+    "summary": "Investigating unexpected LLM failures caused by concurrent requests from multiple AWS clients. The fix involved using ZooKeeper for distributed locking to coordinate access to the model as a shared resource.",
+    "date": "2026-02-14",
     "readTime": "6 min read",
-    "link": "https://medium.com/@namratha343",
-    "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&q=80",
-    "tags": ["DevSecOps", "Jenkins", "SonarQube", "Security"]
+    "link": "https://dev.to/namratha_3/week-1-when-llm-failures-werent-about-load-but-timing-zookeeper-distributed-locking-ii4",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+    "tags": ["ZooKeeper", "Distributed Systems", "LLM", "DevOps"]
   },
   {
     "id": 3,
-    "title": "Observability at Scale: Prometheus, Grafana & OpenTelemetry",
-    "summary": "Building comprehensive monitoring and observability stacks for microservices. How we achieved 99.9% uptime with real-time metrics and distributed tracing.",
-    "date": "2025-11-05",
-    "readTime": "10 min read",
-    "link": "https://medium.com/@namratha343",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    "tags": ["Observability", "Prometheus", "Grafana", "Monitoring"]
+    "title": "Week 2 — The AI Cold Start That Breaks Kubernetes Autoscaling",
+    "summary": "Exploring why standard Kubernetes autoscaling breaks down for AI inference workloads, since AI models take significantly longer to initialize. Solutions like KEDA, model caching, and dedicated inference servers (Triton, KServe) are discussed.",
+    "date": "2026-03-10",
+    "readTime": "6 min read",
+    "link": "https://dev.to/namratha_3/the-ai-cold-start-that-breaks-kubernetes-autoscaling-280n",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+    "tags": ["Kubernetes", "MLOps", "GenAI", "DevOps"]
   }
 ]

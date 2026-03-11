@@ -3,7 +3,7 @@ import { FaExternalLinkAlt, FaClock, FaCalendar, FaMedium } from 'react-icons/fa
 import { blogPosts } from '../data/siteConfig'
 
 // Medium profile URL - update this with your Medium profile
-const MEDIUM_URL = 'https://medium.com/@namratha343'
+const MEDIUM_URL = 'https://dev.to/namratha_3'
 
 const Blog = () => {
 
@@ -55,7 +55,7 @@ const Blog = () => {
             className="inline-flex items-center gap-2 btn-primary px-6 py-3 rounded-full"
           >
             <FaMedium className="w-5 h-5" />
-            <span>View All on Medium</span>
+            <span>View All Blogs</span>
             <FaExternalLinkAlt className="w-4 h-4" />
           </motion.a>
         </motion.div>
